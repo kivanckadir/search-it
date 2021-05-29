@@ -1,0 +1,10 @@
+{
+  "name": "Search !t",
+  "description": "Select a text, right click, and search it on one of the the most popular websites",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": ["tabs", "contextMenus"]
+}
